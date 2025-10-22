@@ -3,6 +3,7 @@ package com.kognitivist.devfeaturehubandroid.ui.theme
 import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.dynamicDarkColorScheme
@@ -40,7 +41,7 @@ fun DevFeatureHubAndroidTheme(
 	dynamicColor: Boolean = true,
 	content: @Composable () -> Unit
 ) {
-	val colorScheme = when {
+	val colorScheme: ColorScheme = when {
 		dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
 			val context = LocalContext.current
 			if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
