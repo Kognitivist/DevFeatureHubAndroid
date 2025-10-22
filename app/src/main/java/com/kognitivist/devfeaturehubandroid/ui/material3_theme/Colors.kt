@@ -1,4 +1,4 @@
-package com.kognitivist.devfeaturehubandroid.ui.theme
+package com.kognitivist.devfeaturehubandroid.ui.material3_theme
 
 import androidx.compose.ui.graphics.Color
 

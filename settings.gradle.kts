@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "DevFeatureHubAndroid"
 include(":app")
- 
+include(":custom_theme")
