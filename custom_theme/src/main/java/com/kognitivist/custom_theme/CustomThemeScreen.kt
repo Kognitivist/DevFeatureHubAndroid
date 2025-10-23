@@ -33,7 +33,7 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 @Preview(showSystemUi = true, showBackground = true)
-fun ScreenCustomTheme() {
+fun CustomThemeScreen() {
 	val activity = LocalActivity.current as ComponentActivity
 	var themeState by rememberSaveable { mutableStateOf(CustomThemes.LIGHT.name) }
 	val colors = CustomThemes.valueOf(themeState).colors

@@ -5,8 +5,8 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.staticCompositionLocalOf
 
 
-internal val LocalColors = staticCompositionLocalOf { LightColors }
-internal val LocalTypography = staticCompositionLocalOf { Typography1 }
+private val LocalColors = staticCompositionLocalOf { LightColors }
+private val LocalTypography = staticCompositionLocalOf { Typography1 }
 
 @Composable
 fun CustomAppTheme(
