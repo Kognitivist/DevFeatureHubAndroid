@@ -1,4 +1,4 @@
-package com.kognitivist.devfeaturehubandroid.ui.material3_theme
+package com.kognitivist.material3_theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

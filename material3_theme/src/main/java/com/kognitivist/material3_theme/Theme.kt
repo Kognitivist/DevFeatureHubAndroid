@@ -1,4 +1,4 @@
-package com.kognitivist.devfeaturehubandroid.ui.material3_theme
+package com.kognitivist.material3_theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

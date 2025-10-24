@@ -132,4 +132,5 @@ dependencies {
 	//implementation(libs.mobileads)
 	implementation(libs.androidx.core.splashscreen)
 	implementation(project(":custom_theme"))
+	implementation(project(":material3_theme"))
 }
